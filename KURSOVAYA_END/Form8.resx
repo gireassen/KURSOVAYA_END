@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>При запуске приложения вас будет приветствовать окно авторизации «Авторизация». 
+Для доступа к функционалу приложения, вам потребуется 
+ввести логин и пароль предоставленные администратором.
+
+После успешной авторизации, перед вами откроется окно 
+с выбором функционала приложения «Управление». На выбор 
+будет предоставлено 5 функций для работы с БД «Фото\Копицентра»:
+ «Сотрудники», «Должности», «Расписание», «Инвентарь» и «Услуги и цены».
+
+В окне «Сотрудники Фото\Копицентра» вы можете вносить в базу 
+или удалять из неё новых сотрудников. Для того, чтобы внести нового 
+сотрудника в БД, вам потребуется заполнить 2 поля: «Имя» и «Фамилия», 
+далее нажать кнопку «Добавить сотрудника», затем новый сотрудник
+ появится в списке, отображающем содержимое БД. Для удаления 
+сотрудника вам нужно выбрать ID сотрудника из списка, внести его в 
+поле «ID сотрудника» и нажать кнопку «Удалить сотрудника». Кнопка «Очистить» 
+очистит все ранее заполненные поля для удобства работы. Кнопка «Выход»
+ позволит вам вернуться к окну «Управление «Фото\Копицентра»». 
+Далее кнопки «Очистить» и «Выход» будут присутствовать во всех 
+функциях приложения.
+
+В окне «Должности Фото\Копицентра» вы можете редактировать и
+ просматривать информацию по должностям сотрудников. Для назначения
+ сотрудника на должность выберите ID сотрудника из списка слева без 
+должности, а также ID свободной должности, заполните соответствующие
+ поля и нажмите кнопку «Назначить должность сотруднику». Для снятия 
+с должности сотрудника также потребуется заполнить его ID и ID должности, 
+на которой он находится, далее нажать на кнопку «Сместить с должности».
+
+В окне «Расписание сотрудников Фото\Копицентра» вы можете 
+редактировать и просматривать информацию с расписанием сотрудников.
+ В первом списке будет предоставлена вся актуальная информация
+ по расписаниям. Для того, чтобы узнать все смены определенного сотрудника,
+ вам нужно внести его ID в поле «ID сотрудника», и нажать кнопку 
+«Узнать смены сотрудника». В нижнем списке выведется вся информация 
+по выбранному сотруднику. Чтобы назначить смену сотруднику требуется
+ заполнить поле «ID сотрудника», выбрать день смены календарной кнопкой,
+ а также заполнить поля «Начало смены» и «Конец смены» в формате HH:MI:SS. 
+Чтобы убрать смену сотруднику вам нужно внести ID смены сотрудника и
+ нажать кнопку «Убрать смену сотруднику по его ID».
+
+В окне «Оборудование Фото\Копицентра» вы можете удалять, добавлять и
+ просматривать информацию об оборудовании Фото\Копицентра. Для 
+удаления оборудования из БД, потребуется внести в поле «ID оборудования» 
+его ID и нажать кнопку «Удалить оборудование». Для добавления нового 
+оборудования вам нужно внести информацию в поля: «Название оборудования»,
+ «Описание», «Год приобретения» и «Телефон Тех. Поддержки» если таковая 
+информация есть, далее нажать кнопку «Добавить оборудование».
+
+В окне «Услуги и цены Фото\Копицентра» вы можете удалять, добавлять 
+и просматривать информацию об услугах и ценах «Фото\Копицентра». 
+В списке будет предоставлена вся актуальная информация. Для удаления
+ информации об услуге вам нужно выбрать из списка нудный ID, и внести 
+его в поле «ID услуги», затем нажать кнопку «Удалить услугу по ID». Для 
+добавления новой услуги вам потребуется заполнить поля: «Наименование услуги», 
+«Цена» и «Описание», затем нажать кнопку «Добавить новую услугу».
+	
+	
+	
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAACMuAAAjLgAAAAAAAAAA
+        AAD//////////////////////////////////////f39//39/f/9/f3//f39//39/f/9/f3//f39//39
+        /f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3/////////////////////////
+        /////////////////////////////////////////f39/6ioqP9eXl7/XV1d/11dXf9dXV3/XV1d/11d
+        Xf9dXV3/XV1d/11dXf9dXV3/XV1d/11dXf9dXV3/XV1d/11dXf9dXV3/XV1d/15eXv+oqKj//f39////
+        ///////////////////////////////////////////////////m5ub/KSkp/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/ykp
+        Kf/m5ub//////////////////////////////////////////////////////+Dg4P8fHx//AAAA/wsG
+        Av8gEQb/IBEG/yARBv8gEQb/IBEG/yARBv8gEQb/IBEG/yARBv8gEQb/IBEG/yARBv8gEQb/IBEG/wsG
+        Av8AAAD/Hx8f/+Dg4P////////////////////////////////////////////7+/v//////39/f/x8f
+        H/8AAAD/UCoP/952Kf/gdyn/4Hcp/+B3Kf/gdyn/4Hcp/+B3Kf/gdyn/4Hcp/+B3Kf/gdyn/4Hcp/+B3
+        Kf/edin/UCoP/wAAAP8fHx//39/f///////+/v7//////////////////////9DQ0P9oaGj/WVlZ/1tb
+        W/9PT0//CwsL/wAAAP9bMRH//Ygv//+JL///iS///4kv//+JL///iS///4kv//+JL///iS///4kv//+J
+        L///iS///4kv//2IL/9bMRH/AAAA/wsLC/9PT0//W1tb/1lZWf9oaGj/0NDQ////////////ampq/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/1QtEP/8hi7//4gv//+IL///iC///4gv//+IL///iC///4gv//+I
+        L///iC///4gv//+IL///iC///IYu/1QtEP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP9qamr///////39
+        /f9bW1v/AAAA/wQEBP8dHR3/HR0d/wMDA/8AAAD/USsP//uGLv//iC///4gv//+IL///iC///4gv//+I
+        L///iC///4gv//+IL///iC///4gv//+IL//7hi7/USsP/wAAAP8DAwP/HR0d/x0dHf8EBAT/AAAA/1tb
+        W//9/f3//f39/1xcXP8AAAD/HBwc/8bGxv/ExMT/GBgY/wAAAP9QKw//94Qt//uGLv/7hi7/+4Yu//uG
+        Lv/7hi7/+4Yu//uGLv/7hi7/+4Yu//uGLv/7hi7/+4Yu//eELf9QKw//AAAA/xgYGP/ExMT/xsbG/xwc
+        HP8AAAD/XFxc//39/f/9/f3/XFxc/wAAAP8fHx//4uLi/9/f3/8bGxv/AAAA/xoOBf9RKw//UiwP/1Is
+        D/9SLA//UiwP/1IsD/9SLA//UiwP/1IsD/9SLA//UiwP/1IsD/9SLA//USsP/xoOBf8AAAD/Gxsb/9/f
+        3//i4uL/Hx8f/wAAAP9cXFz//f39//39/f9cXFz/AAAA/x8fH//i4uL/4ODg/xwcHP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8dHR3/4ODg/+Li4v8fHx//AAAA/1xcXP/9/f3//f39/1xcXP8AAAD/Hx8f/+Dg4P/29vb/ZWVl/xoa
+        Gv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/Ghoa/2ZmZv/29vb/4ODg/x8fH/8AAAD/XFxc//39/f/9/f3/XFxc/wAAAP8fHx//4ODg////
+        ///09PT/3Nzc/9nZ2f/Z2dn/2dnZ/9nZ2f/Z2dn/2dnZ/9nZ2f/Z2dn/2dnZ/9nZ2f/Z2dn/2dnZ/9nZ
+        2f/Z2dn/2dnZ/9nZ2f/c3Nz/9PT0///////g4OD/Hx8f/wAAAP9cXFz//f39//39/f9cXFz/AAAA/x8f
+        H//g4OD/////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////+Dg4P8fHx//AAAA/1xcXP/9/f3//f39/1xc
+        XP8AAAD/Hx8f/+Dg4P//////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////4ODg/x8fH/8AAAD/XFxc//39
+        /f/9/f3/XFxc/wAAAP8fHx//4ODg////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////g4OD/Hx8f/wAA
+        AP9cXFz//f39//39/f9cXFz/AAAA/x8fH//e3t7///////z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8
+        /P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//////97e
+        3v8fHx//AAAA/1xcXP/9/f3//f39/1xcXP8AAAD/CwsL/1BQUP9bW1v/VVVV/1JSUv9SUlL/UlJS/1JS
+        Uv9SUlL/UlJS/1JSUv9SUlL/UlJS/1JSUv9SUlL/UlJS/1JSUv9SUlL/UlJS/1JSUv9SUlL/UlJS/1VV
+        Vf9bW1v/UFBQ/wsLC/8AAAD/XFxc//39/f/+/v7/X19f/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP9fX1///v7+//////+oqKj/KSkp/x8fH/8gICD/CwsL/wAA
+        AP8EAgH/HA8F/yARBv8gEQb/IBEG/yARBv8gEQb/IBEG/yARBv8gEQb/IBEG/yARBv8gEQb/IBEG/yAR
+        Bv8gEQb/HA8F/wQCAf8AAAD/CwsL/yAgIP8fHx//KSkp/6ioqP////////////z8/P/m5ub/4ODg/9/f
+        3/9PT0//AAAA/xwPBf/EaCT/4ngp/+B3Kf/gdyn/4Hcp/+B3Kf/gdyn/4Hcp/+B3Kf/gdyn/4Hcp/+B3
+        Kf/gdyn/4Hcp/+J4Kf/EaCT/HA8F/wAAAP9PT0//39/f/+Dg4P/m5ub//Pz8////////////////////
+        /////////v7+/1paWv8AAAD/IBEG/994Kf//ii///4kv//+JL///iS///4kv//+JL///iS///4kv//+J
+        L///iS///4kv//+JL///iS///4ov/994Kf8gEQb/AAAA/1paWv/+/v7/////////////////////////
+        ///////////////////+/v7/Wlpa/wAAAP8gEQb/33cp//+JL///iC///4gv//+IL///iC///4gv//+I
+        L///iC///4gv//+IL///iC///4gv//+IL///iS//33cp/yARBv8AAAD/Wlpa//7+/v//////////////
+        //////////////////////////////7+/v9aWlr/AAAA/yARBv/fdyn//4kv//+IL///iC///4gv//+I
+        L///iC///4gv//+IL///iC///4gv//+IL///iC///4gv//+JL//fdyn/IBEG/wAAAP9aWlr//v7+////
+        /////////////////////////////////////////v7+/1paWv8AAAD/IBEG/993Kf//iS///4gv//+I
+        L///iC///4gv//+IL///iC///4gv//+IL///iC///4gv//+IL///iC///4kv/993Kf8gEQb/AAAA/1pa
+        Wv/+/v7////////////////////////////////////////////+/v7/Wlpa/wAAAP8gEQb/33cp//+J
+        L///iC///4gv//+IL///iC///4gv//+IL///iC///4gv//+IL///iC///4gv//+IL///iS//33cp/yAR
+        Bv8AAAD/Wlpa//7+/v////////////////////////////////////////////7+/v9aWlr/AAAA/yAR
+        Bv/feCn//4ov//+JL///iS///4kv//+JL///iS///4kv//+JL///iS///4kv//+JL///iS///4kv//+K
+        L//feCn/IBEG/wAAAP9aWlr//v7+/////////////////////////////////////////////v7+/1pa
+        Wv8AAAD/HA8F/8RoJP/ieCn/4Hcp/+B3Kf/gdyn/4Hcp/+B3Kf/gdyn/4Hcp/+B3Kf/gdyn/4Hcp/+B3
+        Kf/gdyn/4ngp/8RoJP8cDwX/AAAA/1paWv/+/v7/////////////////////////////////////////
+        ///+/v7/Wlpa/wAAAP8EAgH/HA8F/yARBv8gEQb/IBEG/yARBv8gEQb/IBEG/yARBv8gEQb/IBEG/yAR
+        Bv8gEQb/IBEG/yARBv8gEQb/HA8F/wQCAf8AAAD/Wlpa//7+/v//////////////////////////////
+        //////////////////9oaGj/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP9oaGj/////////////////////////
+        /////////////////////////////9DQ0P9qamr/XFxc/11dXf9dXV3/XV1d/11dXf9dXV3/XV1d/11d
+        Xf9dXV3/XV1d/11dXf9dXV3/XV1d/11dXf9dXV3/XV1d/11dXf9cXFz/ampq/9DQ0P//////////////
+        //////////////////////////////////////////////7+/v/9/f3//f39//39/f/9/f3//f39//39
+        /f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/+/v7/////////
+        ////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+</root>
